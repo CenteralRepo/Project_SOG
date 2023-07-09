@@ -13,9 +13,8 @@ code {
 }
 .container{
   /* width: 393px; */
-  height: 853px;
   background-color: #FAD745;
-  display: flex;
+  /* display: flex; */
 justify-content: center;
 }
 .login {
@@ -25,7 +24,7 @@ justify-content: center;
   
 }
 .input-field {
-  width: 310px;
+  width: 328px;
     height: 45px;
     background-color: black;
     border-radius: 30px;
@@ -33,12 +32,15 @@ justify-content: center;
 }
 .fields-label{
   display: flex;
-    margin-left: 30px;
+    margin-left: 13px;
     font-size: small;
     font-weight: 600;
-    margin-top: 5px !important;
+    margin-top: 10px !important;
     margin-bottom: 1px !important;
 
+}
+button{
+  cursor:pointer
 }
 .clock{
   margin-top: 18%;
@@ -61,10 +63,34 @@ justify-content: center;
 }
 .eye-icon {
   background-color: #FAD745;
-  position: absolute !important;
-  right: 131px;
-  bottom: 167px;
-  width:20px ;
-  height:20px;
-  border-radius: 10px;
+    position: absolute !important;
+    right: 40%;
+    /* bottom: -10px; */
+    /* margin-right: 47px; */
+    margin-top: 14px;
+    width: 20px;
+    height: 20px;
+    border-radius: 10px;
+}
+@media (max-width: 400px){
+.eye-icon{
+  background-color: #FAD745;
+    position: absolute !important;
+    right: 13%;
+    /* bottom: -10px; */
+    /* margin-right: 47px; */
+    margin-top: 14px;
+    width: 20px;
+    height: 20px;
+    border-radius: 10px;
+}
+}
+.create-new {
+  font-size: medium;
+    font-weight: 600;
+}
+.App{
+  background-color: #FAD745;
+  height: 853px;
+
 }
